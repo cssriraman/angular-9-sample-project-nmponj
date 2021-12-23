@@ -20,7 +20,7 @@ export class AppComponent {
     this.formGroup = this.formBuilder.group({
       name: [null],
       age: [null],
-      state: ['TN']
+      state: ['TN'],
     });
   }
 
